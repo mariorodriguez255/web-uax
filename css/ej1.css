@@ -24,9 +24,39 @@ h6 {
 }
 .producto{
     border: 1px solid black;
-    margin: 25px;
+}
+article{
+    margin: 15px;
+}
+article img{
+    overflow: hidden;
 }
 .productos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 300px));
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav a {
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    padding: 1rem;
+}
+
+nav {
+    background-color: red;
+    height: 50px;
+    align-content: center;
+}
+
+header{
+    background-color: red;
+    color: white;
 }
